@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <Button
+            android:id="@+id/Cartoon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_cartoon_selector" />
+
+        <Button
+            android:id="@+id/Manhua"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@+id/Cartoon"
+            android:background="@drawable/button_manhua_selector" />
+
+        <Button
+            android:id="@+id/Summary"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/Cartoon"
+            android:background="@drawable/button_summary_selector" />
+
+        <Button
+            android:id="@+id/Tale"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignTop="@+id/Summary"
+            android:layout_below="@+id/Manhua"
+            android:layout_toRightOf="@+id/Summary"
+            android:background="@drawable/button_tale_selector" />
+    </RelativeLayout>
+
+</RelativeLayout>

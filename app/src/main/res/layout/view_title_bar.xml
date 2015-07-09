@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="55dp"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/book_list_title"
+        android:layout_width="fill_parent"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_bg" >
+
+        <Button
+            android:id="@+id/book_list_title_backbtn"
+            android:layout_marginLeft="4dp"
+            android:layout_width="45dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/button_back_selector" />
+
+        <TextView
+            android:id="@+id/book_list_title_text"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/book_list_title_backbtn"
+            android:gravity="center"
+            android:textColor="#6b4b2a"
+            android:maxLength="12"
+            android:ellipsize="end"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/book_list_header_line"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/book_list_title"
+        android:background="@drawable/booklist_header" >
+    </RelativeLayout>
+
+</RelativeLayout>

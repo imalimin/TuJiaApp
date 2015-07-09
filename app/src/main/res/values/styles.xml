@@ -1,0 +1,135 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="Theme.TuJia" parent="@android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <!-- 默认Activity跳转动画 -->
+    <style name="default_animation" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/open_next</item>
+        <item name="android:activityOpenExitAnimation">@anim/open_main</item>
+        <item name="android:activityCloseEnterAnimation">@anim/close_next</item>
+        <item name="android:activityCloseExitAnimation">@anim/close_main</item>
+    </style>
+
+    <style name="IndeterminateProgress" parent="@android:style/Widget.ProgressBar">
+        <item name="android:minWidth">16dp</item>
+    </style>
+
+    <style name="textview_blod_dark">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/tertiary_text_dark</item>
+    </style>
+
+    <style name="HeaderSeparator">
+        <item name="android:layout_height">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/header_separator_background</item>
+    </style>
+
+    <style name="ListItem">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/list_item_background</item>
+    </style>
+
+    <style name="ListView">
+        <item name="android:dividerHeight">2dp</item>
+        <item name="android:divider">@drawable/list_divider</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+        <item name="android:fadingEdge">none</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textSize">17sp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#444444</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ListTitleText" parent="TitleText"></style>
+
+    <style name="SubtitleText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#868686</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">160dp</item>
+    </style>
+
+    <style name="ListSubtitleText" parent="SubtitleText"></style>
+
+    <style name="MySettingText">
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:layout_weight">6</item>
+    </style>
+
+
+  
+
+
+    <!-- 表单 -->
+    <style name="form_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="form_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:textColor">#5D478B</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="form_content1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#5D478B</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="form_content2">
+        <item name="android:layout_width">40dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#5D478B</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="form_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">#333</item>
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <!-- 表单子菜单标记 -->
+
+</resources>
